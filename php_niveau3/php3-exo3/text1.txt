@@ -1,0 +1,9 @@
+Texte que sert comme exemple, pour aprendre a manipuler les fichiers
+en PHP.
+
+Nous allons ainsi apprendre à ouvrir un fichier déjà
+existant ou à créer des fichiers de différentes formats (fichiers texte, etc.)
+grâce aux fonctions PHP et écrire des informations dedans. <hr> 
+
+
+1
