@@ -19,7 +19,7 @@ fopen("text.txt", "r"); //ouvre le fichier en prenant le chemin vers le fichier 
 <?php
 
 $ouvrFich = fopen("text.txt", "r+"); //pour l'ouvrir et le manipuler
-$prendFich = fgets($ouvrFich);  //ici on pourra le manipuler une fois mis dans une variable et sur la variable qu'on va agir
+$prendFich = fgets($ouvrFich);  //ici on pourra le manipuler une fois mis dans une variable et c'est sur la variable qu'on va agir
 $prendFich++;                    //on incremente la valeur de la variable
 fseek($ouvrFich,0);             //prend le variable et place le curseur au tout debut du fichier text. 0 signifiant l'emplacement
 fputs($ouvrFich, $prendFich);   //fputs remplace la valeur de $ouvrFich par celle de $prendFich
